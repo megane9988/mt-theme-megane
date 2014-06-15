@@ -1,0 +1,17 @@
+// margin-bottom とそのバリエーション
+
+$margin-bottom-size:40px; 
+.mb{
+	margin-bottom: $margin-bottom-size;
+	&-harf{
+		margin-bottom: $margin-bottom-size / 2;
+	}
+	&-2{
+		margin-bottom: $margin-bottom-size * 2;
+	}
+	&-3{
+		margin-bottom: $margin-bottom-size * 3;
+	}
+}
+
+// @import "margin_bottom.scss";

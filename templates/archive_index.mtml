@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title><$mt:BlogName encode_html="1"$></title>
+		<link rel="stylesheet" href="/mt20140520/themes/picopico/css/app.css" type="text/css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+<body id="<$mt:BlogThemeID$>" class="mt-main-index <$mt:Var name="page_layout"$>">
+	<div id="side-bar">
+		<div class="side-bar-inner">
+			<h3 class="site-title"><a href="<$mt:BlogURL encode_html="1"$>">mgn <i class="fa fa-camera-retro"></i></a></h3>
+			<ul class="hide-sp">
+				<li><a href="#"><i class="fa fa-twitter-square"></i>@megane9988</a></li>
+				<li><a href="#"><i class="fa fa-facebook-square"></i>Hajime megane Ogushi</a></li>
+				<li><a href="#"><i class="fa fa-github-square"></i>megane9988</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main-content">
+<mt:Entries>
+	<article id="entry-<$mt:EntryID$>">
+		<h3 class="post-title"><a href="<$MTEntryPermalink$>"><$mt:EntryTitle$></a></h3>
+		<div id="entry-<$mt:EntryID$>" class="entry-asset asset">
+			<p><$mt:EntryDate format="%x"$></p>
+			<$mt:EntryBody$>
+		</div>
+	</article>
+</mt:Entries>
+		<div class="cf mb">
+			<mt:ArchivePrevious><a href="<$mt:ArchiveLink$>" class="left btn">前へ</a></mt:ArchivePrevious>
+			<mt:ArchiveNext><a href="<$mt:ArchiveLink$>" class="right btn">次へ</a></mt:ArchiveNext>
+		</div>
+	</div>
+	<div id="side-bar" class="pc-hide">
+		<div class="side-bar-inner">
+			<ul>
+				<li><a href="#"><i class="fa fa-twitter-square"></i>@megane9988</a></li>
+				<li><a href="#"><i class="fa fa-facebook-square"></i>Hajime megane Ogushi</a></li>
+				<li><a href="#"><i class="fa fa-github-square"></i>megane9988</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

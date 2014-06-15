@@ -1,0 +1,11 @@
+label: mt-theme-megane
+id: mt-theme-megane
+author_name: megane9988
+author_link: http://m-g-n.me
+version: 0.91
+class: blog
+protected: 1
+description: シンプルに最小構成を目指したMT用のテーマです。CSSにはFoundationを利用しています。
+thumbnail_file: thumb.png
+thumbnail_file_medium: thumb-medium.png
+thumbnail_file_small: thumb-small.png

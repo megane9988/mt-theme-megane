@@ -1,0 +1,25 @@
+//横並びの画像とテキストに背景ごとリンクをつける
+
+a.block{
+	display: block;
+	&:hover{
+		background-color: #f6f6f6;
+	}
+}
+img{
+	margin-bottom: 20px;
+	&.left{
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+	&.right{
+		margin-left: 10px;
+		margin-bottom: 5px; 
+	}
+}
+
+// <a href="#" class="cf block">
+// 	<img src="http://placehold.it/100x100/ccc/ccc&text=img" alt="" class="left">
+// 	<p>Lorem ipsum dolor sit amet, consusto dignissimos quae expedita ipsum.</p>
+// </a>
+// @import "block_link_image_lorem.scss";
